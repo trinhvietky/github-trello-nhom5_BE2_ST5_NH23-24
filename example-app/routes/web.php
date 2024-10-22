@@ -24,3 +24,20 @@ Route::get('/demo', function () {
 Route::get('/page1', function () {
     return view('demo');
 });
+
+
+
+
+
+//brand test
+Route::get('/', function () {
+    return view('welcome');
+});
+
+Route::get('/demo', function () {
+    return view('demo');
+});
+
+Route::get('/page1', function () {
+    return view('demo');
+});
