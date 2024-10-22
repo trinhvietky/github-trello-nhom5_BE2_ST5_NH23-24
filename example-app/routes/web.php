@@ -27,7 +27,13 @@ Route::get('/page1', function () {
 
 
 
+<<<<<<< HEAD
 //Brand Tuan
+=======
+
+
+//brand test
+>>>>>>> test
 Route::get('/', function () {
     return view('welcome');
 });
